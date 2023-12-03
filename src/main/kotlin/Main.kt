@@ -1,7 +1,11 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+import trebuchet.trebuchetPart01
+import trebuchet.trebuchetPart02
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+fun main() {
+    day01()
+}
+
+private fun day01() {
+    trebuchetPart01()
+    trebuchetPart02()
 }
